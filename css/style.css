@@ -1,0 +1,73 @@
+/* Общи стилове за тялото и центриране */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Избор на четлив шрифт */
+    background-color: #f4f7f6; /* Светъл фон */
+    color: #333; /* Тъмен текст */
+    display: flex; /* Активиране на Flexbox за центриране */
+    flex-direction: column; /* Подреждане на елементите вертикално */
+    align-items: center; /* Хоризонтално центриране */
+    padding: 40px 20px; /* Вътрешни отстъпи */
+    min-height: 100vh; /* Минимална височина на цялата страница */
+    margin: 0;
+}
+
+/* Стил за заглавието */
+h2 {
+    color: #2c3e50; /* Тъмно синьо за заглавието */
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db; /* Лека синя подчертавка */
+    padding-bottom: 5px;
+}
+
+/* Общ стил за интерактивните елементи (падащо меню и поле за въвеждане) */
+#locationSelect, #addressInput {
+    padding: 10px 15px;
+    margin: 8px 0;
+    width: 300px; /* Фиксирана ширина */
+    box-sizing: border-box; /* Важно за правилното оразмеряване */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Заоблени ъгли */
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Ефект при фокус (кликване) */
+#locationSelect:focus, #addressInput:focus {
+    border-color: #3498db; /* Синя рамка при фокус */
+    outline: none; /* Премахване на стандартната рамка на браузъра */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Стил за бутона */
+button {
+    background-color: #3498db; /* Основен син цвят */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer; /* Показване на ръка при задържане */
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-top: 15px;
+}
+
+/* Ефект при задържане на мишката върху бутона */
+button:hover {
+    background-color: #2980b9; /* По-тъмно синьо */
+}
+
+/* Ефект при натискане на бутона */
+button:active {
+    transform: scale(0.98); /* Лек ефект на натискане */
+}
+
+/* Стил за елементите <br><br> за по-добър контрол на разстоянието */
+/* Препоръчвам да използвате margin вместо <br>, но за запазване на структурата: */
+body > br {
+    display: none; /* Скриване на <br> елементите */
+}
+
+/* Добавяне на отстъп чрез margin за по-добър контрол */
+#addressInput {
+    margin-top: 15px;
+}
