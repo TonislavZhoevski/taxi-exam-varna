@@ -1,0 +1,96 @@
+[
+    {
+        "id": "1",
+        "name": "Професионална техническа гимназия (ПТГ) -> Транспортна болница",
+        "title": "question 1",
+        "startPoint": "ул. \"Цанко Дюстабанов\" № 18",
+        "finalPoint": "пл. \"Петко Р. Славейков\" № 1",
+        "answer": {
+            "steps": [
+                {
+                    "stepId": "1",
+                    "address": "ул. \"Цанко Дюстабанов\"",
+                    "trafficCircle": false,
+                    "direction": "надясно"
+                },
+                {
+                    "stepId": "2",
+                    "address": "ул. \"Атанас Томов\"",
+                    "trafficCircle": false,
+                    "direction": "надясно"
+                },
+                {
+                    "stepId": "3",
+                    "address": "ул. \"Струга\"",
+                    "trafficCircle": false,
+                    "direction": "направо"
+                },
+                {
+                    "stepId": "4",
+                    "address": "бул. \"Васил Левски\"",
+                    "trafficCircle": true,
+                    "direction": "трети изход"
+                },
+                {
+                    "stepId": "5",
+                    "address": "бул. \"Сливница\"",
+                    "trafficCircle": false,
+                    "direction": "направо"
+                },
+                {
+                    "stepId": "6",
+                    "address": "ул. \"Александър Рачински\"",
+                    "trafficCircle": false,
+                    "direction": "направо"
+                },
+                {
+                    "stepId": "7",
+                    "address": "ул. \"Антим Първи\"",
+                    "trafficCircle": false,
+                    "direction": "направо"
+                },
+                {
+                    "stepId": "8",
+                    "address": "ул. \"Шипка\"",
+                    "trafficCircle": false,
+                    "direction": "направо"
+                },
+                {
+                    "stepId": "9",
+                    "address": "ул. \"Одесос\"",
+                    "trafficCircle": false,
+                    "direction": "направо"
+                },
+                {
+                    "stepId": "10",
+                    "address": "ул. \"Преслав\"",
+                    "trafficCircle": true,
+                    "direction": "втори изход"
+                },
+                {
+                    "stepId": "11",
+                    "address": "пл. \"Петко Р. Славейков\"",
+                    "trafficCircle": false,
+                    "direction": null
+                }
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "name": "Гранд Мол -> Технически университет (ТУ)",
+        "title": "question 2",
+        "startPoint": "ул. \"Акад. Андрей Сахаров\" № 2",
+        "finalPoint": "ул. \"Студентска\" № 1",
+        "answer": {
+            "steps": [
+                {
+                    "stepId": "1",
+                    "address": "ул. \"Акад. Андрей Сахаров\"",
+                    "trafficCircle": false,
+                    "direction": "надясно"
+                }
+            ]
+        }
+    }
+]
