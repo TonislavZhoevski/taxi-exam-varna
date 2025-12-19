@@ -1,7 +1,7 @@
 /* Общи стилове за тялото и центриране */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Избор на четлив шрифт */
-    background-color: #f4f7f6; /* Светъл фон */
+    background-color: #0d2822; /* Светъл фон */
     color: #333; /* Тъмен текст */
     display: flex; /* Активиране на Flexbox за центриране */
     flex-direction: column; /* Подреждане на елементите вертикално */
@@ -13,9 +13,9 @@ body {
 
 /* Стил за заглавието */
 h2 {
-    color: #2c3e50; /* Тъмно синьо за заглавието */
+    color: #1a7353; /* Тъмно синьо за заглавието */
     margin-bottom: 30px;
-    border-bottom: 2px solid #3498db; /* Лека синя подчертавка */
+    border-bottom: 2px solid #557112; /* Лека синя подчертавка */
     padding-bottom: 5px;
 }
 
@@ -40,12 +40,13 @@ h2 {
 
 /* Стил за бутона */
 button {
-    background-color: #3498db; /* Основен син цвят */
-    color: white;
+    background-color: #557112; /* Основен син цвят */
+    color: #c3e097;
     padding: 12px 25px;
     border: none;
     border-radius: 6px;
     cursor: pointer; /* Показване на ръка при задържане */
+    font-weight: bold;
     font-size: 16px;
     transition: background-color 0.3s, transform 0.1s;
     margin-top: 15px;
@@ -53,7 +54,7 @@ button {
 
 /* Ефект при задържане на мишката върху бутона */
 button:hover {
-    background-color: #2980b9; /* По-тъмно синьо */
+    background-color: #1a7353; /* По-тъмно синьо */
 }
 
 /* Ефект при натискане на бутона */

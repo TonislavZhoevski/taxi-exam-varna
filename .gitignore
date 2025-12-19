@@ -1,0 +1,16 @@
+# Dependencies (never upload these, they are huge)
+node_modules/
+dist/
+build/
+
+# Environment variables (contains passwords/API keys)
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Editor specific
+.vscode/
+.DS_Store

@@ -1,6 +1,6 @@
 /** @type {Array} */
 let dataLocation = []; // Променлива на ниво модул (не е в window)
-
+    
 // ----------------------------------------------------
 // 1. ФУНКЦИЯ ЗА ЗАРЕЖДАНЕ НА ДАННИ
 // ----------------------------------------------------
@@ -9,8 +9,8 @@ async function loadData() {
     try {
         // Използваме Promise.all за едновременно зареждане на двата файла
         const [q1, q2] = await Promise.all([
-            fetch("./data/question1.json").then(res => res.json()),
-            fetch("./data/question2.json").then(res => res.json())
+            fetch("/data/question1.json").then(res => res.json()),
+            fetch("/data/question2.json").then(res => res.json())
         ]);
         
         // Запазваме данните в локалната променлива
