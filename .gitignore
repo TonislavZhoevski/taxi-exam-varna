@@ -6,6 +6,7 @@ build/
 # Environment variables (contains passwords/API keys)
 .env
 .env.local
+.env.example
 
 # Logs
 npm-debug.log*
